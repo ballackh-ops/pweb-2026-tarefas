@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def index(request):
-    print("deu certo!")
+    return render(request, "index.html")
