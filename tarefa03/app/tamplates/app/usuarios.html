@@ -1,0 +1,10 @@
+{& extends "index.html" &}
+
+{% block tarefa03 %}
+    {% for usuario in usuarios %}
+        <p>Nome: {{ usuario.nome }}</p>
+        <p>Idade: {{ usuario.idade }}</p>
+        <p>Matrícula: {{ usuario.matricula }}</p>
+        <p>Cidade: {{ usuario.cidade }}</p>
+    {% endfor %}
+{% endblock %}
